@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>pkgweb</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/pkgweb.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand logo">pkgweb</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">Services <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a>
+                            </li>
+                            <li><a href="#">Another action</a>
+                            </li>
+                            <li><a href="#">Something else here</a>
+                            </li>
+                            <li><a href="#">Separated link</a>
+                            </li>
+                            <li><a href="#">One more separated link</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#about">Portfolio</a>
+                    </li>
+                    <!--
+                    <li class="active"><a href="#">Blog</a>
+                    </li>
+-->
+                    <li><a href="#contact">About us</a>
+                    </li>
+                    <li><a href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="./"><i class="glyphicon glyphicon-user"></i> Log in </a>
+                    </li>
+                    <li><a href="../navbar-static-top/"><i class="glyphicon glyphicon-edit"></i> Register</a>
+                    </li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+    <div class="masthead">
+        <div class="container">
+            <h2 class="pull-left">contact us</h2>
+
+            <div class="pull-right">
+                <ol class="breadcrumb">
+                    <li><a href="#">Home</a>
+                    </li>
+                    <li><a href="#">Library</a>
+                    </li>
+                    <li class="active">Contact Us</li>
+                </ol>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <article class="col-sm-6">
+                <h4>Send Us A Message</h4>
+                <form name="sentMessage" id="contactForm">
+                    <div class="control-group">
+                        <div class="controls">
+                            <input type="text" class="form-control" placeholder="Full Name" id="name" required data-validation-required-message="Please enter your name" />
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="controls">
+                            <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Please enter your email" />
+                        </div>
+                    </div>
+
+                    <div class="control-group">
+                        <div class="controls">
+                            <textarea rows="10" cols="100" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter your message" minlength="5" data-validation-minlength-message="Min 5 characters" maxlength="999" style="resize:none"></textarea>
+                        </div>
+                    </div>
+                    <div id="success">123123</div>
+                    <!-- For success/fail messages -->
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </form>
+            </article>
+            <aside class="col-sm-6">
+                <h4>Contact Info</h4>
+                <div class="row">
+                    <div class="col-md-12"></div>
+                    <div class="col-md-1 hidden-xs hidden-sm">
+                        <div class="img-circle icon-1"><i class="glyphicon glyphicon-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-xs-6">
+                        <h4> Email</h4>
+
+                        <p>info@pkgweb.com</p>
+                        <p>gary@pkgweb.com</p>
+                    </div>
+                    <div class="col-md-1 hidden-xs hidden-sm">
+                        <div class="img-circle icon-1"><i class="glyphicon glyphicon-comment"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-xs-6">
+                        <h4>Online support</h4>
+                        <p>WECHAT ID: PKGWEB</p>
+                        <p>QQ NO.:66550</p>
+                    </div>
+                </div>
+
+
+            </aside>
+        </div>
+    </div>
+    <footer class="footer clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+
+                    <h4>About XXX</h4>
+                    <p>Fusce gravida tortor felis, ac dictum risus sagittis id.</p>
+                    <p>Donec volutpat, mi vel egestas eleifend, dolor arcu iaculis nunc. Fusce gravida tortor felis, ac dictum risus sagittis id. Morbi posuere justo eleifend libero ultricies ultrices</p>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Our Services</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="">Corporate Web Design</a>
+                        </li>
+                        <li><a href="">CMS Website Design</a>
+                        </li>
+                        <li><a href="">eCommerce / Online Store</a>
+                        </li>
+                        <li><a href="">Web Portal Development</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Nedd help Or advice?</h4>
+                    <p>Tel: +65 6269 9558
+                        <br>(Mon - Fri 10am - 6pm)</p>
+                    <ul class="list-unstyled">
+                        <li><a href="">QQ : 500405555</a>
+                        </li>
+                        <li><a href="">Email: info@pkgweb.com</a>
+                        </li>
+                        <li><a href="">wechat: PKGWEB</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Follow Us</h4>
+                </div>
+            </div>
+            <div class="f-down row">
+                <div class="pull-left f-cr">Copyright © 2014 - Power by XXX</div>
+                <ul class="list-inline f-nav hidden-xs">
+                    <li><a href="">home</a>
+                    </li>
+                    <li><a href="">Services </a>
+                    </li>
+                    <li><a href="">Portfolio </a>
+                    </li>
+                    <li><a href="">About us </a>
+                    </li>
+                    <li><a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('.carousel').carousel();
+    </script>
+</body>
+
+</html>

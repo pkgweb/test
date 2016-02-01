@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>pkgweb internet solution</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/comesoon.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="comesoon">
+        <div class="container">
+            <div class="logo"></div>
+        </div>
+    </div>
+    <div class="message">
+        <div class="container">
+            <h1 class="text-center">We Will Release Pkgweb</h1>
+            <p class="text-center">We are working hard and estimated release time products below.
+                <br>pkgweb internet solution get ready when the site is about to launch.</p>
+            <div class="clock row">
+                <!-- Days -->
+                <div class="clock_days col-sm-3 col-xs-6">
+                    <div class="bgLayer">
+                        <div class="topLayer"></div>
+                        <canvas id="canvas_days" width="188" height="188">
+                        </canvas>
+
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type_days">Days</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Days -->
+                <!-- Hours -->
+                <div class="clock_hours col-sm-3 col-xs-6">
+                    <div class="bgLayer">
+                        <div class="topLayer"></div>
+                        <canvas id="canvas_hours" width="188" height="188">
+                        </canvas>
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type_hours">Hours</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Hours -->
+                <!-- Minutes -->
+                <div class="clock_minutes col-sm-3 col-xs-6">
+                    <div class="bgLayer">
+                        <div class="topLayer"></div>
+                        <canvas id="canvas_minutes" width="188" height="188">
+                        </canvas>
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type_minutes">Minutes</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Minutes -->
+                <!-- Seconds -->
+                <div class="clock_seconds col-sm-3 col-xs-6">
+                    <div class="bgLayer">
+                        <div class="topLayer"></div>
+                        <canvas id="canvas_seconds" width="188" height="188">
+                        </canvas>
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type_seconds">Seconds</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        <footer class="footer clearfix">
+    <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+
+                        <h4>About Pkgweb</h4>
+                        <p>Pkgweb offering the best Internet product positioning for the clients, re-branding and re-packaging our products and services using the latest web technology to meet the needs of our clients for better efficiency and usage of their web solutions in their daily business operation.</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <h4>Our Services</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="">Corporate Web Design</a>
+                            </li>
+                            <li><a href="">CMS Website Design</a>
+                            </li>
+                            <li><a href="">eCommerce / Online Store</a>
+                            </li>
+                            <li><a href="">Web Portal Development</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h4>Nedd help Or advice?</h4>
+                        <p>Tel: <a href="tel:006598592619">+(65) 9859 2619</a>
+                            <br>(Mon - Sun 10am - 10pm)</p>
+                        <ul class="list-unstyled">
+                            <li><a href="mailto:info@pkgweb.com">Email: info@pkgweb.com</a>
+                            </li>
+                            <li><a href="">wechat: pkgweb</a>
+                            </li>
+                            <li>QQ : 52220444
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h4>Follow Us</h4>
+                    </div>
+                </div>
+                <div class="f-down row">
+                    <div class="pull-left f-cr">Copyright © 2014 - Power by pkgweb</div>
+                    <ul class="list-inline f-nav hidden-xs">
+                        <li><a href="">home</a>
+                        </li>
+                        <li><a href="">Services </a>
+                        </li>
+                        <li><a href="">Portfolio </a>
+                        </li>
+                        <li><a href="">About us </a>
+                        </li>
+                        <li><a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/jbclock.js"></script>
+        <script>
+            $(document).ready(function () {
+                JBCountDown({
+                    secondsColor: "#21c2f8 ",
+                    secondsGlow: "none",
+
+                    minutesColor: "#21c2f8",
+                    minutesGlow: "none",
+
+                    hoursColor: "#21c2f8",
+                    hoursGlow: "none",
+
+                    daysColor: "#21c2f8",
+                    daysGlow: "none",
+
+                    startDate: "1357034400",
+                    endDate: "1372736800",
+                    now: "1362613268",
+                    seconds: "08"
+                });
+            });
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+body {
+    color: #9aa7af;
+    font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif
+}
+a{color: #66ccff;}
+/*header*/
+
+.logo {
+    width: 233px;
+    height: 63px;
+    background: url(../img/logo.png);
+    font: 0/0 a;
+    color: transparent;
+    margin: 70px auto 40px;
+}
+.comesoon{background: #2e393f;}
+.message > div{padding: 40px 0}
+.clock{margin: 40px 0}
+/*.bgLayer:before{content: "";display: block;height: 120px;width: 120px;box-shadow: 0 0 0 2px #ccd3d7;border-radius: 120px;position: absolute}*/
+.bgLayer{position: relative;text-align: center}
+.bgLayer canvas{height: 120px;width: 120px;background: url(../img/coming-soon.png) no-repeat;}
+.bgLayer .text{margin-top:-100px;}
+.bgLayer .val{font-size: 46px;margin-bottom: 40px;}
+
+/*footer*/
+
+.footer {
+    padding-top: 40px;
+    background: url(../img/footer-bg.png) repeat-x 0 100% #2f383d;
+    border-top: 1px solid rgba(63, 76, 83, 0.30);
+}
+.footer li a {
+    color: #8a9ca9;
+}
+.footer li a:hover {
+    color: #feffff;
+}
+.footer h4 {
+    color: #d5e9f8;
+}
+.f-down {
+    padding-top: 23px;
+    min-height: 60px;
+}
+.f-nav {
+    float: right;
+}
+.f-nav li {
+    margin-left: 40px;
+}
+.f-nav li a {
+    color: #6d7a83;
+}
+.f-nav li a:hover {
+    color: #a8b8c3;
+}
+@media (max-width: 768px) {
+    .f-cr {
+        width: 100%;
+        text-align: center
+    }
+}
